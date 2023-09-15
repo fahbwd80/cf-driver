@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Images/Car.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.24);
+    padding: 20px;
+}
+
+#driveButton {
+    color: #fff;
+    background-image: url(Images/Driver.jpg) ;
+    background-size: cover
+}
+#washButton {
+    color: #fff;
+    background-image: url(Images/Carwash.jpg) ;
+    background-size: cover;
+}
+
+#driverInfo {
+    color: #fff;
+}
+
+button {
+    padding: 20px;
+    border: 3px solid;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .5s;
+}
+button:hover {
+    border-radius: 2px #fff solid;
+    box-shadow: 5px #fff;
+    background-color: blue;
+}
